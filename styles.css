@@ -34,12 +34,11 @@
     }
 
     .forms{
-        margin-top: 10%;
         background-color: white;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) and (min-width: 300px) {
     .navbar-link{
         font-size: 0.7rem;
     }
@@ -58,7 +57,29 @@
     }
 
     .forms{
-        margin-top: 10%;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+    .navbar-link{
+        font-size: 0.6rem;
+    }
+
+    .info-table{
+        font-size: 0.4rem;
+    }
+
+    .table-btn{
+        padding: 0%;
+        font-size: 0.4rem;
+    }
+
+    .screen-size{
+        height: auto;
+    }
+
+    .forms{
         background-color: white;
     }
 }
