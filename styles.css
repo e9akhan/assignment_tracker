@@ -1,0 +1,64 @@
+.ass-link{
+    color: black;
+}
+
+.info-table{
+    font-size: 1rem;
+}
+
+.screen-size{
+    height: 100%;
+}
+
+.forms{
+    background-color: #F8F9FA;
+    box-shadow: 5px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 401px) {
+    .navbar-link{
+        font-size: 0.8rem;
+    }
+
+    .info-table{
+        font-size: 0.6rem;
+    }
+
+    .table-btn{
+        padding: 5%;
+        font-size: 0.8rem;
+    }
+    
+    .screen-size{
+        height: auto;
+    }
+
+    .forms{
+        margin-top: 10%;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-link{
+        font-size: 0.7rem;
+    }
+
+    .info-table{
+        font-size: 0.5rem;
+    }
+
+    .table-btn{
+        padding: 5%;
+        font-size: 0.6rem;
+    }
+
+    .screen-size{
+        height: auto;
+    }
+
+    .forms{
+        margin-top: 10%;
+        background-color: white;
+    }
+}
